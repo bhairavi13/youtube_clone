@@ -66,6 +66,7 @@ header {
 main {
     display: flex;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .container1 {
@@ -74,9 +75,37 @@ main {
     height: fit-content;
     margin-left: 5rem;
 }
+
 .infocontainer {
-    display: flex;
+    display: block;
+    padding-top: 1rem;
 }
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black 1px solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.iconos p {
+    font-size: 14px;
+}
+
+.iconosderecha {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+}
+
+.iconosderecha a {
+    font-size: 19px;
+    color: gray;
+    text-decoration: none;
+}
+
 .container2 {
     background: green;
     width: 35%;
